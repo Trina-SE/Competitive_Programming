@@ -2,7 +2,7 @@
 using namespace std;
 
 bool isPrime(long long int a){
-
+  
   for(long long int i=2;i<=sqrt(a);i++){
     if(a%i==0)
         return false;
